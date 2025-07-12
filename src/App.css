@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  border: 1px solid #ccd4ff;
+  border-radius: 20px;
+  margin: 70px 45px;
+  padding: 30px 3px;
+  color: #ccd4ff;
+  background-color: #060b2782;}
+  h1{
+      text-align: center;
+      font-size: 58px;
+      font-weight: bold;
+      color: #ccd4ff;
+  }
+  .continar{
+      display: flex;
+      flex-direction: column;
+  }
+  .continar ul li{
+      width: 135px;
+      overflow-wrap: break-word;
+      list-style-type: "✈️";
+      cursor: pointer;
+      padding-bottom: 20px;
+      font-size: 20px;
+  }
+  .x{
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .done{
+      text-decoration: line-through;
+  }
+  .item{
+      display: flex;
+      cursor: pointer;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom:1px solid #aab8ff;
+  }
+  input{
+      width: 93%;
+      padding: 10px;
+      font-size: 20px;
+      border: 1px solid #ccd4ff;
+      border-radius: 10px; 
+      background-color: #060b2782; 
+      color: #ccd4ff;
+      transition: background-color 0.3s; 
+  }
+  
+  input:focus {
+      background-color: #060b27; 
+  }
+  button{
+      background-color: #c4cdff;
+      color: #000;
+      font-size: 20px;
+      font-weight: bold;
+      border: none; /* Added for a sleeker look */
+      border-radius: 10px; /* Rounded corners */
+      padding: 5px 20px; /* Added padding for better spacing */
+      cursor: pointer; /* Pointer cursor on hover */
+      transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  button:hover {
+      background-color: #aab8ff; /* Lighter shade on hover */
+  }
